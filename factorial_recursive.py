@@ -7,4 +7,4 @@ def minys(n,b):
     return n-b
 
 def plus(n,b):
-    return n-b
+    return n+b
