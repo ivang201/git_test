@@ -1,7 +1,3 @@
-x = int(input())
-y = ''
-while x > 0:
-    y = str(x % 2) + y
-    x = x // 2
- 
-print(y)
+from factorial_recursive import factorial_recursive;
+y = int(input())
+print(factorial_recursive(y))
