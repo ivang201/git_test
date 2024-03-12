@@ -3,3 +3,5 @@ def factorial_recursive(n):
         return n
     else:
         return n*factorial_recursive(n-1)
+def minys(n,b):
+    return n-b
